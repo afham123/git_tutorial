@@ -24,3 +24,16 @@ $ clear
 $ touch file_name.html
 13. git starts tracting all files
 $ git add -A
+14. Revert chnages of a file to previous commit
+$ git checkout file_name
+15 See the list of changes commited
+$ git log
+16. See the list of last n changes commited
+$ git log -p -n
+17. Compair working tree with stagging area.
+$ git diff
+18. Compare with last commit stagging area.
+$ git diff --stagged
+19. Commit without stagging
+$ git comit -a -m "Add commit statement"
+20.  

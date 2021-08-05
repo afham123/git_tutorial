@@ -1,0 +1,26 @@
+1. Set user name :  
+$ git config --global user.name Your_Name
+2. Set user email :
+$ git config --global user.email Your_Email
+3. See user name :
+$ git config --global user.name
+4. See user email :
+$ git config --global user.email
+5. Iitialize empty repository in the pwd.
+$ git init
+6. List out all the file present in the folder.
+$ ls
+7. List out all files including hidden files in the folder.
+$ ls -lart
+8. Show git status
+$ git status
+9. git starts tracting file
+$ git add file_name
+10. Start commit 
+$ git commit -m "Add commit statement"
+11. Clear git bash screen.
+$ clear
+12. Make blank html file
+$ touch file_name.html
+13. git starts tracting all files
+$ git add -A

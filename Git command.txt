@@ -62,4 +62,10 @@ $ git remote add origin copied_url
 $ git remote
 3. Push master branch to origin.
 $ git push origin master(branch_name)
+4. reassign url
+$ git remote set origin copied_url
+5. Clone repository
+$ git clone copied_url
+6. pull the repository merge it locally.
+$ git pull origin main
 
